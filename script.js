@@ -11,24 +11,79 @@ const timer = document.querySelector('.timer');
 // Make an array of objects that stores question, choices of question and answer
 const quiz = [
     {
-        question: "Q. Which of the following is not a CSS box model property?",
-        choices: ["margin", "padding", "border-radius", "border-collapse"],
-        answer: "border-collapse"
+        question: "Q. What is the capital of Australia?",
+        choices: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        answer: "Canberra"
     },
     {
-        question: "Q. Which of the following is not a valid way to declare a function in JavaScript?",
-        choices: ["function myFunction() {}", " let myFunction = function() {};", "myFunction: function() {}", "const myFunction = () => {};"],
-        answer: "myFunction: function() {}"
+        question: "Q.Which country has won the most FIFA World Cups?",
+        choices: ["Germany", "Brazil", "Italy", "Portugal"],
+        answer: "Brazil"
     },
     {
-        question: "Q. Which of the following is not a JavaScript data type?",
-        choices: ["string", "boolean", "object", "float"],
-        answer: "float"
+        question: "Q. Who is the first cricketer to score 100 international centuries?",
+        choices: ["Ricky Ponting", "Jacques Kallis", "Virat Kohli", "Sachin Tendulkar"],
+        answer: "Sachin Tendulkar"
     },
     {
-        question: "Q. What is the purpose of the this keyword in JavaScript?",
-        choices: ["It refers to the current function.", "It refers to the current object.", "It refers to the parent object.", " It is used for comments."],
-        answer: "It refers to the current object."
+        question: "Q. What does 'IPO' stand for in finance?",
+        choices: ["Initial Public Option", "International Profit Order", "Initial Public Offering", "Investment Portfolio Option"],
+        answer: "Initial Public Offering"
+    },
+    {
+        question: "Q. What is the official currency of Japan?",
+        choices: ["Yuan", "Yen", "Won", "Rupee"],
+        answer: "Yen"
+    },
+    {
+        question: "Q.Who holds the record for the most Grand Slam titles in men's tennis (as of 2025)?",
+        choices: ["Novak Djokovic", "Rafael Nadal", "Roger Federer", "Pete Sampras"],
+        answer: "Novak Djokovic"
+    },
+    {
+        question: "Q. Which tournament is considered the oldest tennis championship?",
+        choices: ["US Open", "French Open", "Wimbledon", "Australian Open"],
+        answer: "Wimbledon"
+    },
+    {
+        question: "Q. Which team has won the most IPL titles?",
+        choices: ["Royal Challengers Bangalore", "Mumbai Indians", "Kolkata Knight Riders", "Delhi Capitals"],  
+        answer: "Mumbai Indians"
+    },
+    {
+        question: "Q. Who is the leading run-scorer in IPL history?",
+        choices: ["Rohit Sharma", "Suresh Raina", "Virat Kohli", "David Warner"],
+        answer: "Virat Kohli"
+    },
+    {
+        question: "Q. Which movie won the Academy Award for Best Picture in 2023?",
+        choices: ["Everything Everywhere All At Once", "Avatar: The Way of Water", "Top Gun: Maverick", "The Banshees of Inisherin"],
+        answer: "Everything Everywhere All At Once"
+    },
+    {
+        question: "Q. Who directed the movie 'Inception'?",
+        choices: ["Quentin Tarantino", "Christopher Nolan", "James Cameron", "Steven Spielberg"],
+        answer: "Christopher Nolan"
+    },
+    {
+        question: "Q. Which player has won the most Ballon d'Or awards?",
+        choices: ["Cristiano Ronaldo", "Lionel Messi", "Zinedine Zidane", "pele"],
+        answer: "Lionel Messi"
+    },
+    {
+        question: "Q. What is the tallest mountain in the world?",
+        choices: ["K2", "Kangchenjunga", "Lhotse", "Mount Everest"],
+        answer: "Mount Everest"
+    },
+    {
+        question: "Q. Which country hosted the 2022 FIFA World Cup?",
+        choices: ["Qatar", "Russia", "Brazil", "South Africa"],
+        answer: "Qatar"
+    },
+    {
+        question: "Q. Which team won the first ICC Cricket World Cup in 1975?",
+        choices: ["Australia", "West Indies", "England", "India"],
+        answer: "West Indies"
     }
 ];
 
